@@ -1,0 +1,90 @@
+class Dosa {
+    public static void main(String[] args) {
+
+        String type = "Masala Dosa";
+        String hotel = "Udupi";
+        String color = "Golden Brown";
+        String chutney = "Coconut";
+        String sambar = "Available";
+        double price = 80.00;
+        boolean crispy = true;
+        String size = "Large";
+        String filling = "Potato";
+        String oilType = "Ghee";
+        double weight = 250.5;
+        String chef = "Ramesh";
+        String country = "India";
+        int quantity = 1;
+        String taste = "Spicy";
+        String servingTime = "Breakfast";
+        String status = "Hot";
+        double rating = 4.9;
+        String plateType = "Steel";
+        int orderNumber = 101;
+
+        System.out.println("First Values");
+        System.out.println("Dosa type : "+type);
+        System.out.println("Name"+hotel);
+        System.out.println("color"+color);
+        System.out.println("chutney"+chutney);
+        System.out.println("sambar"+sambar);
+        System.out.println("price"+price);
+        System.out.println("crispy"+crispy);
+        System.out.println("size"+size);
+        System.out.println("filling"+filling);
+        System.out.println("oilType"+oilType);
+        System.out.println("weight"+weight);
+        System.out.println("chef"+chef);
+        System.out.println("country"+country);
+        System.out.println("quantity"+quantity);
+        System.out.println("taste"+taste);
+        System.out.println("servingTime"+servingTime);
+        System.out.println("status"+status);
+        System.out.println("rating"+rating);
+        System.out.println("plateType"+plateType);
+        System.out.println("orderNumber"+orderNumber);
+
+        type = "Plain Dosa";
+        hotel = "MTR";
+        color = "Light Brown";
+        chutney = "Tomato";
+        sambar = "Not Available";
+        price = 60.00;
+        crispy = false;
+        size = "Medium";
+        filling = "None";
+        oilType = "Sunflower Oil";
+        weight = 200.0;
+        chef = "Suresh";
+        country = "India";
+        quantity = 2;
+        taste = "Mild";
+        servingTime = "Dinner";
+        status = "Served";
+        rating = 4.5;
+        plateType = "Banana Leaf";
+        orderNumber = 202;
+
+        System.out.println("\nSecond Values");
+        System.out.println("Dosatype"+type);
+        System.out.println("Name"+hotel);
+        System.out.println("color"+color);
+        System.out.println("chutney"+chutney);
+        System.out.println("sambar"+sambar);
+        System.out.println("price"+price);
+        System.out.println("crispy"+crispy);
+        System.out.println("size"+size);
+        System.out.println("filling"+filling);
+        System.out.println("oilType"+oilType);
+        System.out.println("weight"+weight);
+        System.out.println("chef"+chef);
+        System.out.println("country"+country);
+        System.out.println("quantity"+quantity);
+        System.out.println("taste"+taste);
+        System.out.println("servingTime"+servingTime);
+        System.out.println("status"+status);
+        System.out.println("rating"+rating);
+        System.out.println("plateType"+plateType);
+        System.out.println("orderNumber"+orderNumber);
+    }
+}

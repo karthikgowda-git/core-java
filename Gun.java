@@ -1,0 +1,90 @@
+class Gun {
+    public static void main(String[] args) {
+
+        String brand = "Smith & Wesson";
+        String model = "Model 10";
+        String type = "Revolver";
+        String color = "Black";
+        String material = "Steel";
+        double weight = 1.2;
+        double price = 50000.00;
+        boolean loaded = true;
+        int capacity = 6;
+        String caliber = ".38 Special";
+        String country = "USA";
+        String manufacturer = "Smith & Wesson";
+        String safety = "Manual";
+        String status = "Available";
+        String finish = "Matte";
+        double rating = 4.7;
+        int serialNumber = 101;
+        String usage = "Sports";
+        String warranty = "2 Years";
+        String condition = "New";
+
+        System.out.println("First Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Type: " + type);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Weight: " + weight);
+        System.out.println("Price: " + price);
+        System.out.println("Loaded: " + loaded);
+        System.out.println("Capacity: " + capacity);
+        System.out.println("Caliber: " + caliber);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Safety: " + safety);
+        System.out.println("Status: " + status);
+        System.out.println("Finish: " + finish);
+        System.out.println("Rating: " + rating);
+        System.out.println("Serial Number: " + serialNumber);
+        System.out.println("Usage: " + usage);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Condition: " + condition);
+
+        brand = "Glock";
+        model = "G19";
+        type = "Pistol";
+        color = "Gray";
+        material = "Polymer";
+        weight = 0.9;
+        price = 65000.00;
+        loaded = false;
+        capacity = 15;
+        caliber = "9mm";
+        country = "Austria";
+        manufacturer = "Glock GmbH";
+        safety = "Trigger Safety";
+        status = "Sold";
+        finish = "Glossy";
+        rating = 4.9;
+        serialNumber = 202;
+        usage = "Training";
+        warranty = "5 Years";
+        condition = "Used";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Type: " + type);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Weight: " + weight);
+        System.out.println("Price: " + price);
+        System.out.println("Loaded: " + loaded);
+        System.out.println("Capacity: " + capacity);
+        System.out.println("Caliber: " + caliber);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Safety: " + safety);
+        System.out.println("Status: " + status);
+        System.out.println("Finish: " + finish);
+        System.out.println("Rating: " + rating);
+        System.out.println("Serial Number: " + serialNumber);
+        System.out.println("Usage: " + usage);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Condition: " + condition);
+    }
+}

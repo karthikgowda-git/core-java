@@ -1,0 +1,90 @@
+class Router {
+    public static void main(String[] args) {
+
+        String brand = "TP-Link";
+        String model = "Archer C6";
+        String color = "Black";
+        String type = "WiFi Router";
+        String frequency = "Dual Band";
+        double price = 2499.00;
+        boolean wireless = true;
+        int antennas = 4;
+        String speed = "1200 Mbps";
+        String country = "China";
+        String manufacturer = "TP-Link Technologies";
+        double weight = 350.5;
+        String powerSupply = "12V Adapter";
+        int warranty = 2;
+        String security = "WPA2";
+        String status = "Available";
+        double rating = 4.7;
+        String connectivity = "Ethernet";
+        int ports = 5;
+        String usage = "Home";
+
+        System.out.println("First Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Type: " + type);
+        System.out.println("Frequency: " + frequency);
+        System.out.println("Price: " + price);
+        System.out.println("Wireless: " + wireless);
+        System.out.println("Antennas: " + antennas);
+        System.out.println("Speed: " + speed);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Power Supply: " + powerSupply);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Security: " + security);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Connectivity: " + connectivity);
+        System.out.println("Ports: " + ports);
+        System.out.println("Usage: " + usage);
+
+        brand = "D-Link";
+        model = "DIR-615";
+        color = "White";
+        type = "Broadband Router";
+        frequency = "Single Band";
+        price = 1799.00;
+        wireless = false;
+        antennas = 2;
+        speed = "300 Mbps";
+        country = "India";
+        manufacturer = "D-Link India";
+        weight = 300.0;
+        powerSupply = "9V Adapter";
+        warranty = 1;
+        security = "WPA3";
+        status = "Sold";
+        rating = 4.3;
+        connectivity = "LAN";
+        ports = 4;
+        usage = "Office";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Type: " + type);
+        System.out.println("Frequency: " + frequency);
+        System.out.println("Price: " + price);
+        System.out.println("Wireless: " + wireless);
+        System.out.println("Antennas: " + antennas);
+        System.out.println("Speed: " + speed);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Power Supply: " + powerSupply);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Security: " + security);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Connectivity: " + connectivity);
+        System.out.println("Ports: " + ports);
+        System.out.println("Usage: " + usage);
+    }
+}

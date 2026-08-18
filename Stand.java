@@ -1,0 +1,90 @@
+class Stand {
+    public static void main(String[] args) {
+
+        String type = "Mobile Stand";
+        String brand = "Portronics";
+        String color = "Black";
+        String material = "Plastic";
+        String shape = "Foldable";
+        double price = 299.00;
+        boolean adjustable = true;
+        double height = 15.5;
+        double weight = 250.0;
+        String usage = "Mobile Support";
+        String country = "India";
+        String manufacturer = "Portronics Ltd";
+        int quantity = 50;
+        String quality = "Premium";
+        String status = "Available";
+        String design = "Modern";
+        double rating = 4.7;
+        String warranty = "1 Year";
+        int productId = 101;
+        String size = "Medium";
+
+        System.out.println("First Values");
+        System.out.println("Type: " + type);
+        System.out.println("Brand: " + brand);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Shape: " + shape);
+        System.out.println("Price: " + price);
+        System.out.println("Adjustable: " + adjustable);
+        System.out.println("Height: " + height);
+        System.out.println("Weight: " + weight);
+        System.out.println("Usage: " + usage);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Quality: " + quality);
+        System.out.println("Status: " + status);
+        System.out.println("Design: " + design);
+        System.out.println("Rating: " + rating);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Size: " + size);
+
+        type = "Laptop Stand";
+        brand = "Zebronics";
+        color = "Silver";
+        material = "Aluminium";
+        shape = "Rectangular";
+        price = 799.00;
+        adjustable = false;
+        height = 20.0;
+        weight = 500.0;
+        usage = "Laptop Support";
+        country = "China";
+        manufacturer = "Zebronics Pvt Ltd";
+        quantity = 30;
+        quality = "Standard";
+        status = "Sold";
+        design = "Classic";
+        rating = 4.4;
+        warranty = "6 Months";
+        productId = 202;
+        size = "Large";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Type: " + type);
+        System.out.println("Brand: " + brand);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Shape: " + shape);
+        System.out.println("Price: " + price);
+        System.out.println("Adjustable: " + adjustable);
+        System.out.println("Height: " + height);
+        System.out.println("Weight: " + weight);
+        System.out.println("Usage: " + usage);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Quality: " + quality);
+        System.out.println("Status: " + status);
+        System.out.println("Design: " + design);
+        System.out.println("Rating: " + rating);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Size: " + size);
+    }
+}

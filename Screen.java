@@ -1,0 +1,90 @@
+class Screen {
+    public static void main(String[] args) {
+
+        String brand = "Samsung";
+        String type = "LED";
+        String color = "Black";
+        String size = "32 Inch";
+        String resolution = "1920x1080";
+        double price = 15000.00;
+        boolean touchScreen = false;
+        String display = "Full HD";
+        String panelType = "IPS";
+        String country = "India";
+        String manufacturer = "Samsung Electronics";
+        double weight = 4.5;
+        int warranty = 2;
+        String quality = "Premium";
+        String status = "Available";
+        String refreshRate = "60 Hz";
+        double rating = 4.7;
+        String connectivity = "HDMI";
+        int productId = 101;
+        String usage = "Home";
+
+        System.out.println("First Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Type: " + type);
+        System.out.println("Color: " + color);
+        System.out.println("Size: " + size);
+        System.out.println("Resolution: " + resolution);
+        System.out.println("Price: " + price);
+        System.out.println("Touch Screen: " + touchScreen);
+        System.out.println("Display: " + display);
+        System.out.println("Panel Type: " + panelType);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Quality: " + quality);
+        System.out.println("Status: " + status);
+        System.out.println("Refresh Rate: " + refreshRate);
+        System.out.println("Rating: " + rating);
+        System.out.println("Connectivity: " + connectivity);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Usage: " + usage);
+
+        brand = "LG";
+        type = "OLED";
+        color = "Silver";
+        size = "43 Inch";
+        resolution = "3840x2160";
+        price = 28000.00;
+        touchScreen = true;
+        display = "4K Ultra HD";
+        panelType = "OLED";
+        country = "South Korea";
+        manufacturer = "LG Electronics";
+        weight = 6.2;
+        warranty = 3;
+        quality = "Standard";
+        status = "Sold";
+        refreshRate = "120 Hz";
+        rating = 4.9;
+        connectivity = "USB-C";
+        productId = 202;
+        usage = "Office";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Type: " + type);
+        System.out.println("Color: " + color);
+        System.out.println("Size: " + size);
+        System.out.println("Resolution: " + resolution);
+        System.out.println("Price: " + price);
+        System.out.println("Touch Screen: " + touchScreen);
+        System.out.println("Display: " + display);
+        System.out.println("Panel Type: " + panelType);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Quality: " + quality);
+        System.out.println("Status: " + status);
+        System.out.println("Refresh Rate: " + refreshRate);
+        System.out.println("Rating: " + rating);
+        System.out.println("Connectivity: " + connectivity);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Usage: " + usage);
+    }
+}

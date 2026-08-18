@@ -1,0 +1,90 @@
+class BullockCart {
+    public static void main(String[] args) {
+
+        String type = "Wooden Cart";
+        String color = "Brown";
+        String material = "Wood";
+        String wheelType = "Wooden Wheels";
+        String bullockBreed = "Hallikar";
+        double price = 25000.00;
+        boolean loaded = true;
+        int wheels = 2;
+        String usage = "Transport";
+        String country = "India";
+        String owner = "Ramesh";
+        double weight = 350.5;
+        int capacity = 500;
+        String village = "Mandya";
+        String status = "In Use";
+        String manufacturer = "Local Carpenter";
+        double rating = 4.6;
+        String design = "Traditional";
+        int cartNumber = 101;
+        String condition = "Good";
+
+        System.out.println("First Values");
+        System.out.println("Type: " + type);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Wheel Type: " + wheelType);
+        System.out.println("Bullock Breed: " + bullockBreed);
+        System.out.println("Price: " + price);
+        System.out.println("Loaded: " + loaded);
+        System.out.println("Wheels: " + wheels);
+        System.out.println("Usage: " + usage);
+        System.out.println("Country: " + country);
+        System.out.println("Owner: " + owner);
+        System.out.println("Weight: " + weight);
+        System.out.println("Capacity: " + capacity);
+        System.out.println("Village: " + village);
+        System.out.println("Status: " + status);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Rating: " + rating);
+        System.out.println("Design: " + design);
+        System.out.println("Cart Number: " + cartNumber);
+        System.out.println("Condition: " + condition);
+
+        type = "Iron Cart";
+        color = "Black";
+        material = "Iron";
+        wheelType = "Rubber Wheels";
+        bullockBreed = "Ongole";
+        price = 40000.00;
+        loaded = false;
+        wheels = 4;
+        usage = "Farming";
+        country = "Nepal";
+        owner = "Suresh";
+        weight = 500.0;
+        capacity = 800;
+        village = "Mysore";
+        status = "Available";
+        manufacturer = "ABC Industries";
+        rating = 4.8;
+        design = "Modern";
+        cartNumber = 202;
+        condition = "Excellent";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Type: " + type);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Wheel Type: " + wheelType);
+        System.out.println("Bullock Breed: " + bullockBreed);
+        System.out.println("Price: " + price);
+        System.out.println("Loaded: " + loaded);
+        System.out.println("Wheels: " + wheels);
+        System.out.println("Usage: " + usage);
+        System.out.println("Country: " + country);
+        System.out.println("Owner: " + owner);
+        System.out.println("Weight: " + weight);
+        System.out.println("Capacity: " + capacity);
+        System.out.println("Village: " + village);
+        System.out.println("Status: " + status);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Rating: " + rating);
+        System.out.println("Design: " + design);
+        System.out.println("Cart Number: " + cartNumber);
+        System.out.println("Condition: " + condition);
+    }
+}

@@ -1,0 +1,90 @@
+class ShirtButton {
+    public static void main(String[] args) {
+
+        String brand = "Classic";
+        String material = "Plastic";
+        String color = "White";
+        String shape = "Round";
+        double size = 1.5;
+        int holes = 4;
+        double price = 2.50;
+        boolean stitched = true;
+        String shirtType = "Formal";
+        String finish = "Glossy";
+        double weight = 0.5;
+        String manufacturer = "ABC Buttons";
+        String country = "India";
+        int quantity = 50;
+        String quality = "Premium";
+        String usage = "Shirt";
+        String status = "Available";
+        double rating = 4.6;
+        String packageType = "Packet";
+        int code = 101;
+
+        System.out.println("First Values");
+        System.out.println(brand);
+        System.out.println(material);
+        System.out.println(color);
+        System.out.println(shape);
+        System.out.println(size);
+        System.out.println(holes);
+        System.out.println(price);
+        System.out.println(stitched);
+        System.out.println(shirtType);
+        System.out.println(finish);
+        System.out.println(weight);
+        System.out.println(manufacturer);
+        System.out.println(country);
+        System.out.println(quantity);
+        System.out.println(quality);
+        System.out.println(usage);
+        System.out.println(status);
+        System.out.println(rating);
+        System.out.println(packageType);
+        System.out.println(code);
+
+        brand = "Fashion";
+        material = "Metal";
+        color = "Black";
+        shape = "Square";
+        size = 2.0;
+        holes = 2;
+        price = 5.00;
+        stitched = false;
+        shirtType = "Casual";
+        finish = "Matte";
+        weight = 0.8;
+        manufacturer = "XYZ Buttons";
+        country = "China";
+        quantity = 100;
+        quality = "Standard";
+        usage = "Coat";
+        status = "Out of Stock";
+        rating = 4.3;
+        packageType = "Box";
+        code = 202;
+
+        System.out.println("\nSecond Values");
+        System.out.println(brand);
+        System.out.println(material);
+        System.out.println(color);
+        System.out.println(shape);
+        System.out.println(size);
+        System.out.println(holes);
+        System.out.println(price);
+        System.out.println(stitched);
+        System.out.println(shirtType);
+        System.out.println(finish);
+        System.out.println(weight);
+        System.out.println(manufacturer);
+        System.out.println(country);
+        System.out.println(quantity);
+        System.out.println(quality);
+        System.out.println(usage);
+        System.out.println(status);
+        System.out.println(rating);
+        System.out.println(packageType);
+        System.out.println(code);
+    }
+}

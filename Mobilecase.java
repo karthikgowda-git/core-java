@@ -1,0 +1,90 @@
+class MobileCase {
+    public static void main(String[] args) {
+
+        String brand = "Spigen";
+        String model = "Galaxy S24";
+        String color = "Black";
+        String material = "Silicone";
+        String type = "Back Cover";
+        double price = 499.00;
+        boolean waterproof = false;
+        String design = "Matte Finish";
+        String compatibleBrand = "Samsung";
+        String country = "India";
+        String manufacturer = "Spigen India";
+        double weight = 80.5;
+        int quantity = 25;
+        String quality = "Premium";
+        String protection = "Shockproof";
+        String status = "Available";
+        double rating = 4.8;
+        String warranty = "6 Months";
+        int productId = 101;
+        String size = "Medium";
+
+        System.out.println("First Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Type: " + type);
+        System.out.println("Price: " + price);
+        System.out.println("Waterproof: " + waterproof);
+        System.out.println("Design: " + design);
+        System.out.println("Compatible Brand: " + compatibleBrand);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Quality: " + quality);
+        System.out.println("Protection: " + protection);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Size: " + size);
+
+        brand = "Realme";
+        model = "Realme 12 Pro";
+        color = "Blue";
+        material = "Plastic";
+        type = "Flip Cover";
+        price = 299.00;
+        waterproof = true;
+        design = "Glossy";
+        compatibleBrand = "Realme";
+        country = "China";
+        manufacturer = "Realme Pvt Ltd";
+        weight = 70.0;
+        quantity = 40;
+        quality = "Standard";
+        protection = "Scratch Resistant";
+        status = "Sold";
+        rating = 4.5;
+        warranty = "1 Year";
+        productId = 202;
+        size = "Large";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Type: " + type);
+        System.out.println("Price: " + price);
+        System.out.println("Waterproof: " + waterproof);
+        System.out.println("Design: " + design);
+        System.out.println("Compatible Brand: " + compatibleBrand);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Quality: " + quality);
+        System.out.println("Protection: " + protection);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Size: " + size);
+    }
+}

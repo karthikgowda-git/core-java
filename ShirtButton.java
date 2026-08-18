@@ -1,0 +1,90 @@
+class ShirtButton {
+    public static void main(String[] args) {
+
+        String brand = "Arrow";
+        String color = "White";
+        String material = "Plastic";
+        String shape = "Round";
+        double size = 1.2;
+        int holes = 4;
+        boolean shiny = true;
+        String shirtType = "Formal";
+        String country = "India";
+        double price = 5.0;
+        int quantity = 10;
+        String quality = "Premium";
+        String pack = "Box";
+        String manufacturer = "ABC Ltd";
+        String design = "Plain";
+        String usage = "Shirt";
+        double weight = 2.5;
+        String status = "Available";
+        double rating = 4.5;
+        int productId = 101;
+
+        System.out.println("First Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Shape: " + shape);
+        System.out.println("Size: " + size);
+        System.out.println("Holes: " + holes);
+        System.out.println("Shiny: " + shiny);
+        System.out.println("Shirt Type: " + shirtType);
+        System.out.println("Country: " + country);
+        System.out.println("Price: " + price);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Quality: " + quality);
+        System.out.println("Pack: " + pack);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Design: " + design);
+        System.out.println("Usage: " + usage);
+        System.out.println("Weight: " + weight);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Product ID: " + productId);
+
+        brand = "Peter England";
+        color = "Black";
+        material = "Metal";
+        shape = "Square";
+        size = 1.5;
+        holes = 2;
+        shiny = false;
+        shirtType = "Casual";
+        country = "China";
+        price = 8.0;
+        quantity = 20;
+        quality = "Standard";
+        pack = "Packet";
+        manufacturer = "XYZ Ltd";
+        design = "Glossy";
+        usage = "Coat";
+        weight = 3.0;
+        status = "Sold";
+        rating = 4.2;
+        productId = 202;
+
+        System.out.println("\nSecond Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Shape: " + shape);
+        System.out.println("Size: " + size);
+        System.out.println("Holes: " + holes);
+        System.out.println("Shiny: " + shiny);
+        System.out.println("Shirt Type: " + shirtType);
+        System.out.println("Country: " + country);
+        System.out.println("Price: " + price);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Quality: " + quality);
+        System.out.println("Pack: " + pack);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Design: " + design);
+        System.out.println("Usage: " + usage);
+        System.out.println("Weight: " + weight);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Product ID: " + productId);
+    }
+}

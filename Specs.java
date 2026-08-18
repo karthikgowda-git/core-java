@@ -1,0 +1,90 @@
+class Specs {
+    public static void main(String[] args) {
+
+        String brand = "Ray-Ban";
+        String model = "RB3025";
+        String color = "Black";
+        String frameMaterial = "Metal";
+        String lensType = "Polarized";
+        double price = 5999.00;
+        boolean antiGlare = true;
+        String frameShape = "Round";
+        String lensColor = "Green";
+        String country = "Italy";
+        String manufacturer = "Ray-Ban Ltd";
+        double weight = 35.5;
+        int warranty = 2;
+        String quality = "Premium";
+        String usage = "Reading";
+        String status = "Available";
+        double rating = 4.8;
+        int productId = 101;
+        String size = "Medium";
+        String gender = "Unisex";
+
+        System.out.println("First Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Frame Material: " + frameMaterial);
+        System.out.println("Lens Type: " + lensType);
+        System.out.println("Price: " + price);
+        System.out.println("Anti Glare: " + antiGlare);
+        System.out.println("Frame Shape: " + frameShape);
+        System.out.println("Lens Color: " + lensColor);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Quality: " + quality);
+        System.out.println("Usage: " + usage);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Size: " + size);
+        System.out.println("Gender: " + gender);
+
+        brand = "Titan Eye+";
+        model = "TE202";
+        color = "Brown";
+        frameMaterial = "Plastic";
+        lensType = "Blue Cut";
+        price = 3499.00;
+        antiGlare = false;
+        frameShape = "Rectangle";
+        lensColor = "Transparent";
+        country = "India";
+        manufacturer = "Titan Company";
+        weight = 30.0;
+        warranty = 1;
+        quality = "Standard";
+        usage = "Computer";
+        status = "Sold";
+        rating = 4.5;
+        productId = 202;
+        size = "Large";
+        gender = "Men";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Frame Material: " + frameMaterial);
+        System.out.println("Lens Type: " + lensType);
+        System.out.println("Price: " + price);
+        System.out.println("Anti Glare: " + antiGlare);
+        System.out.println("Frame Shape: " + frameShape);
+        System.out.println("Lens Color: " + lensColor);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Quality: " + quality);
+        System.out.println("Usage: " + usage);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Size: " + size);
+        System.out.println("Gender: " + gender);
+    }
+}

@@ -1,0 +1,90 @@
+class Earbuds {
+    public static void main(String[] args) {
+
+        String brand = "boAt";
+        String model = "Airdopes 141";
+        String color = "Black";
+        String type = "Wireless";
+        String connectivity = "Bluetooth 5.3";
+        double price = 1499.00;
+        boolean noiseCancellation = true;
+        int batteryLife = 42;
+        String chargingType = "USB Type-C";
+        String country = "India";
+        String manufacturer = "boAt Lifestyle";
+        double weight = 45.5;
+        int warranty = 1;
+        String quality = "Premium";
+        String status = "Available";
+        String waterResistance = "IPX4";
+        double rating = 4.7;
+        int productId = 101;
+        String usage = "Music";
+        String microphone = "Built-in";
+
+        System.out.println("First Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Type: " + type);
+        System.out.println("Connectivity: " + connectivity);
+        System.out.println("Price: " + price);
+        System.out.println("Noise Cancellation: " + noiseCancellation);
+        System.out.println("Battery Life: " + batteryLife);
+        System.out.println("Charging Type: " + chargingType);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Quality: " + quality);
+        System.out.println("Status: " + status);
+        System.out.println("Water Resistance: " + waterResistance);
+        System.out.println("Rating: " + rating);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Usage: " + usage);
+        System.out.println("Microphone: " + microphone);
+
+        brand = "Realme";
+        model = "Buds Air 5";
+        color = "White";
+        type = "True Wireless";
+        connectivity = "Bluetooth 5.2";
+        price = 2499.00;
+        noiseCancellation = false;
+        batteryLife = 30;
+        chargingType = "USB Type-C";
+        country = "China";
+        manufacturer = "Realme";
+        weight = 40.0;
+        warranty = 2;
+        quality = "Standard";
+        status = "Sold";
+        waterResistance = "IPX5";
+        rating = 4.5;
+        productId = 202;
+        usage = "Gaming";
+        microphone = "Dual Microphone";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Type: " + type);
+        System.out.println("Connectivity: " + connectivity);
+        System.out.println("Price: " + price);
+        System.out.println("Noise Cancellation: " + noiseCancellation);
+        System.out.println("Battery Life: " + batteryLife);
+        System.out.println("Charging Type: " + chargingType);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Warranty: " + warranty);
+        System.out.println("Quality: " + quality);
+        System.out.println("Status: " + status);
+        System.out.println("Water Resistance: " + waterResistance);
+        System.out.println("Rating: " + rating);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Usage: " + usage);
+        System.out.println("Microphone: " + microphone);
+    }
+}

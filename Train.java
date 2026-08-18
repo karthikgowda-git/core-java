@@ -1,0 +1,90 @@
+class Train {
+    public static void main(String[] args) {
+
+        String trainName = "Shatabdi Express";
+        int trainNumber = 12001;
+        String source = "Chennai";
+        String destination = "Bengaluru";
+        int coaches = 18;
+        int passengers = 950;
+        double speed = 110.5;
+        boolean running = true;
+        String type = "Express";
+        String engine = "Electric";
+        String colour = "Blue";
+        String station = "KSR Bengaluru";
+        double ticketPrice = 450.50;
+        String classType = "Sleeper";
+        int platform = 5;
+        String departureTime = "08:00 AM";
+        String arrivalTime = "01:30 PM";
+        double distance = 360.5;
+        String foodService = "Available";
+        int stops = 8;
+
+        System.out.println("First Values");
+        System.out.println(trainName);
+        System.out.println(trainNumber);
+        System.out.println(source);
+        System.out.println(destination);
+        System.out.println(coaches);
+        System.out.println(passengers);
+        System.out.println(speed);
+        System.out.println(running);
+        System.out.println(type);
+        System.out.println(engine);
+        System.out.println(colour);
+        System.out.println(station);
+        System.out.println(ticketPrice);
+        System.out.println(classType);
+        System.out.println(platform);
+        System.out.println(departureTime);
+        System.out.println(arrivalTime);
+        System.out.println(distance);
+        System.out.println(foodService);
+        System.out.println(stops);
+
+        trainName = "Rajdhani Express";
+        trainNumber = 12951;
+        source = "Mumbai";
+        destination = "Delhi";
+        coaches = 22;
+        passengers = 1200;
+        speed = 130.0;
+        running = false;
+        type = "Superfast";
+        engine = "Diesel";
+        colour = "Red";
+        station = "New Delhi";
+        ticketPrice = 850.75;
+        classType = "AC";
+        platform = 2;
+        departureTime = "06:30 PM";
+        arrivalTime = "10:00 AM";
+        distance = 1384.0;
+        foodService = "Not Available";
+        stops = 12;
+
+        System.out.println("\nSecond Values");
+        System.out.println(trainName);
+        System.out.println(trainNumber);
+        System.out.println(source);
+        System.out.println(destination);
+        System.out.println(coaches);
+        System.out.println(passengers);
+        System.out.println(speed);
+        System.out.println(running);
+        System.out.println(type);
+        System.out.println(engine);
+        System.out.println(colour);
+        System.out.println(station);
+        System.out.println(ticketPrice);
+        System.out.println(classType);
+        System.out.println(platform);
+        System.out.println(departureTime);
+        System.out.println(arrivalTime);
+        System.out.println(distance);
+        System.out.println(foodService);
+        System.out.println(stops);
+    }
+}

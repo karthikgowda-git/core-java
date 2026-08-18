@@ -1,0 +1,90 @@
+class Energy {
+    public static void main(String[] args) {
+
+        String type = "Solar Energy";
+        String source = "Sun";
+        String form = "Renewable";
+        String color = "Yellow";
+        double power = 5000.0;
+        String unit = "Watt";
+        boolean available = true;
+        String usage = "Electricity";
+        String country = "India";
+        String company = "Adani Green";
+        double efficiency = 95.5;
+        String storage = "Battery";
+        int capacity = 100;
+        String status = "Active";
+        double cost = 25000.0;
+        String location = "Rajasthan";
+        String technology = "Photovoltaic";
+        double rating = 4.8;
+        int plantId = 101;
+        String future = "Sustainable";
+
+        System.out.println("First Values");
+        System.out.println("Type: " + type);
+        System.out.println("Source: " + source);
+        System.out.println("Form: " + form);
+        System.out.println("Color: " + color);
+        System.out.println("Power: " + power);
+        System.out.println("Unit: " + unit);
+        System.out.println("Available: " + available);
+        System.out.println("Usage: " + usage);
+        System.out.println("Country: " + country);
+        System.out.println("Company: " + company);
+        System.out.println("Efficiency: " + efficiency);
+        System.out.println("Storage: " + storage);
+        System.out.println("Capacity: " + capacity);
+        System.out.println("Status: " + status);
+        System.out.println("Cost: " + cost);
+        System.out.println("Location: " + location);
+        System.out.println("Technology: " + technology);
+        System.out.println("Rating: " + rating);
+        System.out.println("Plant ID: " + plantId);
+        System.out.println("Future: " + future);
+
+        type = "Wind Energy";
+        source = "Wind";
+        form = "Clean";
+        color = "White";
+        power = 3000.0;
+        unit = "Kilowatt";
+        available = false;
+        usage = "Industrial";
+        country = "USA";
+        company = "Suzlon";
+        efficiency = 89.5;
+        storage = "Grid";
+        capacity = 200;
+        status = "Inactive";
+        cost = 18000.0;
+        location = "Texas";
+        technology = "Wind Turbine";
+        rating = 4.5;
+        plantId = 202;
+        future = "Growing";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Type: " + type);
+        System.out.println("Source: " + source);
+        System.out.println("Form: " + form);
+        System.out.println("Color: " + color);
+        System.out.println("Power: " + power);
+        System.out.println("Unit: " + unit);
+        System.out.println("Available: " + available);
+        System.out.println("Usage: " + usage);
+        System.out.println("Country: " + country);
+        System.out.println("Company: " + company);
+        System.out.println("Efficiency: " + efficiency);
+        System.out.println("Storage: " + storage);
+        System.out.println("Capacity: " + capacity);
+        System.out.println("Status: " + status);
+        System.out.println("Cost: " + cost);
+        System.out.println("Location: " + location);
+        System.out.println("Technology: " + technology);
+        System.out.println("Rating: " + rating);
+        System.out.println("Plant ID: " + plantId);
+        System.out.println("Future: " + future);
+    }
+}

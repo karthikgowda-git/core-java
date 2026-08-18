@@ -1,0 +1,90 @@
+class Pizza {
+    public static void main(String[] args) {
+
+        String name = "Veg Pizza";
+        String size = "Large";
+        String crust = "Thin";
+        String cheese = "Mozzarella";
+        String topping = "Olives";
+        double price = 299;
+        boolean hot = true;
+        int slices = 8;
+        String sauce = "Tomato";
+        String restaurant = "Dominos";
+        String country = "India";
+        String flavour = "Spicy";
+        double weight = 500;
+        int orderNo = 101;
+        String status = "Ready";
+        String drink = "Pepsi";
+        String offer = "20% Off";
+        double rating = 4.8;
+        String delivery = "Fast";
+        int quantity = 1;
+
+        System.out.println("First Values");
+        System.out.println("Pizza: " + name);
+        System.out.println("Size: " + size);
+        System.out.println("Crust: " + crust);
+        System.out.println("Cheese: " + cheese);
+        System.out.println("Topping: " + topping);
+        System.out.println("Price: " + price);
+        System.out.println("Hot: " + hot);
+        System.out.println("Slices: " + slices);
+        System.out.println("Sauce: " + sauce);
+        System.out.println("Restaurant: " + restaurant);
+        System.out.println("Country: " + country);
+        System.out.println("Flavour: " + flavour);
+        System.out.println("Weight: " + weight);
+        System.out.println("Order No: " + orderNo);
+        System.out.println("Status: " + status);
+        System.out.println("Drink: " + drink);
+        System.out.println("Offer: " + offer);
+        System.out.println("Rating: " + rating);
+        System.out.println("Delivery: " + delivery);
+        System.out.println("Quantity: " + quantity);
+
+        name = "Cheese Pizza";
+        size = "Medium";
+        crust = "Cheese Burst";
+        cheese = "Cheddar";
+        topping = "Corn";
+        price = 249;
+        hot = false;
+        slices = 6;
+        sauce = "BBQ";
+        restaurant = "Pizza Hut";
+        country = "USA";
+        flavour = "Mild";
+        weight = 450;
+        orderNo = 202;
+        status = "Delivered";
+        drink = "Coke";
+        offer = "10% Off";
+        rating = 4.4;
+        delivery = "Normal";
+        quantity = 2;
+
+        System.out.println("\nSecond Values");
+        System.out.println("Pizza: " + name);
+        System.out.println("Size: " + size);
+        System.out.println("Crust: " + crust);
+        System.out.println("Cheese: " + cheese);
+        System.out.println("Topping: " + topping);
+        System.out.println("Price: " + price);
+        System.out.println("Hot: " + hot);
+        System.out.println("Slices: " + slices);
+        System.out.println("Sauce: " + sauce);
+        System.out.println("Restaurant: " + restaurant);
+        System.out.println("Country: " + country);
+        System.out.println("Flavour: " + flavour);
+        System.out.println("Weight: " + weight);
+        System.out.println("Order No: " + orderNo);
+        System.out.println("Status: " + status);
+        System.out.println("Drink: " + drink);
+        System.out.println("Offer: " + offer);
+        System.out.println("Rating: " + rating);
+        System.out.println("Delivery: " + delivery);
+        System.out.println("Quantity: " + quantity);
+    }
+}

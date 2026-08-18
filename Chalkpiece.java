@@ -1,0 +1,90 @@
+class ChalkPiece {
+    public static void main(String[] args) {
+
+        String brand = "Camlin";
+        String color = "White";
+        String material = "Calcium Carbonate";
+        String shape = "Cylinder";
+        double length = 8.5;
+        double price = 10.00;
+        boolean dustFree = true;
+        String usage = "Writing";
+        String boardType = "Blackboard";
+        String country = "India";
+        String manufacturer = "Camlin Ltd";
+        double weight = 15.5;
+        int quantity = 20;
+        String quality = "Premium";
+        String packType = "Box";
+        String status = "Available";
+        double rating = 4.6;
+        String texture = "Smooth";
+        int productId = 101;
+        String type = "School Chalk";
+
+        System.out.println("First Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Shape: " + shape);
+        System.out.println("Length: " + length);
+        System.out.println("Price: " + price);
+        System.out.println("Dust Free: " + dustFree);
+        System.out.println("Usage: " + usage);
+        System.out.println("Board Type: " + boardType);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Quality: " + quality);
+        System.out.println("Pack Type: " + packType);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Texture: " + texture);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Type: " + type);
+
+        brand = "Apsara";
+        color = "Yellow";
+        material = "Gypsum";
+        shape = "Round";
+        length = 7.0;
+        price = 15.00;
+        dustFree = false;
+        usage = "Drawing";
+        boardType = "Green Board";
+        country = "China";
+        manufacturer = "Apsara Pvt Ltd";
+        weight = 18.0;
+        quantity = 30;
+        quality = "Standard";
+        packType = "Packet";
+        status = "Sold";
+        rating = 4.3;
+        texture = "Rough";
+        productId = 202;
+        type = "Colored Chalk";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Shape: " + shape);
+        System.out.println("Length: " + length);
+        System.out.println("Price: " + price);
+        System.out.println("Dust Free: " + dustFree);
+        System.out.println("Usage: " + usage);
+        System.out.println("Board Type: " + boardType);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Quality: " + quality);
+        System.out.println("Pack Type: " + packType);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Texture: " + texture);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Type: " + type);
+    }
+}

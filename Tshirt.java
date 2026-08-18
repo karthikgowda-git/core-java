@@ -1,0 +1,90 @@
+class Tshirt {
+    public static void main(String[] args) {
+
+        String brand = "Nike";
+        String color = "Black";
+        String size = "M";
+        double price = 799.0;
+        int stock = 50;
+        String material = "Cotton";
+        boolean available = true;
+        double weight = 0.25;
+        String sleeve = "Half";
+        String neck = "Round";
+        String gender = "Unisex";
+        int code = 101;
+        String country = "India";
+        String pattern = "Plain";
+        String fit = "Regular";
+        String season = "Summer";
+        String wash = "Machine";
+        String warranty = "No";
+        double rating = 4.5;
+        String discount = "10%";
+
+        System.out.println("First Values");
+        System.out.println(brand);
+        System.out.println(color);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(stock);
+        System.out.println(material);
+        System.out.println(available);
+        System.out.println(weight);
+        System.out.println(sleeve);
+        System.out.println(neck);
+        System.out.println(gender);
+        System.out.println(code);
+        System.out.println(country);
+        System.out.println(pattern);
+        System.out.println(fit);
+        System.out.println(season);
+        System.out.println(wash);
+        System.out.println(warranty);
+        System.out.println(rating);
+        System.out.println(discount);
+
+        brand = "Puma";
+        color = "Blue";
+        size = "L";
+        price = 999.0;
+        stock = 30;
+        material = "Polyester";
+        available = false;
+        weight = 0.30;
+        sleeve = "Full";
+        neck = "V";
+        gender = "Men";
+        code = 202;
+        country = "Bangladesh";
+        pattern = "Printed";
+        fit = "Slim";
+        season = "Winter";
+        wash = "Hand";
+        warranty = "Yes";
+        rating = 4.8;
+        discount = "20%";
+
+        System.out.println("\nSecond Values");
+        System.out.println(brand);
+        System.out.println(color);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(stock);
+        System.out.println(material);
+        System.out.println(available);
+        System.out.println(weight);
+        System.out.println(sleeve);
+        System.out.println(neck);
+        System.out.println(gender);
+        System.out.println(code);
+        System.out.println(country);
+        System.out.println(pattern);
+        System.out.println(fit);
+        System.out.println(season);
+        System.out.println(wash);
+        System.out.println(warranty);
+        System.out.println(rating);
+        System.out.println(discount);
+    }
+}

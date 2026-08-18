@@ -1,0 +1,90 @@
+class Tag {
+    public static void main(String[] args) {
+
+        String brand = "Nike";
+        String product = "T-Shirt";
+        String color = "White";
+        String size = "Medium";
+        String material = "Paper";
+        double price = 499.00;
+        boolean attached = true;
+        String barcode = "TG12345";
+        String country = "India";
+        String manufacturer = "Nike India";
+        double weight = 2.5;
+        String shape = "Rectangle";
+        String quality = "Premium";
+        int quantity = 50;
+        String category = "Clothing";
+        String status = "Available";
+        double rating = 4.8;
+        String design = "Printed";
+        int tagNumber = 101;
+        String type = "Price Tag";
+
+        System.out.println("First Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Product: " + product);
+        System.out.println("Color: " + color);
+        System.out.println("Size: " + size);
+        System.out.println("Material: " + material);
+        System.out.println("Price: " + price);
+        System.out.println("Attached: " + attached);
+        System.out.println("Barcode: " + barcode);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Shape: " + shape);
+        System.out.println("Quality: " + quality);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Category: " + category);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Design: " + design);
+        System.out.println("Tag Number: " + tagNumber);
+        System.out.println("Type: " + type);
+
+        brand = "Puma";
+        product = "Shoes";
+        color = "Black";
+        size = "Large";
+        material = "Plastic";
+        price = 799.00;
+        attached = false;
+        barcode = "TG67890";
+        country = "China";
+        manufacturer = "Puma Ltd";
+        weight = 3.0;
+        shape = "Square";
+        quality = "Standard";
+        quantity = 100;
+        category = "Footwear";
+        status = "Sold";
+        rating = 4.5;
+        design = "Plain";
+        tagNumber = 202;
+        type = "Brand Tag";
+
+        System.out.println("\nSecond Values");
+        System.out.println("Brand: " + brand);
+        System.out.println("Product: " + product);
+        System.out.println("Color: " + color);
+        System.out.println("Size: " + size);
+        System.out.println("Material: " + material);
+        System.out.println("Price: " + price);
+        System.out.println("Attached: " + attached);
+        System.out.println("Barcode: " + barcode);
+        System.out.println("Country: " + country);
+        System.out.println("Manufacturer: " + manufacturer);
+        System.out.println("Weight: " + weight);
+        System.out.println("Shape: " + shape);
+        System.out.println("Quality: " + quality);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Category: " + category);
+        System.out.println("Status: " + status);
+        System.out.println("Rating: " + rating);
+        System.out.println("Design: " + design);
+        System.out.println("Tag Number: " + tagNumber);
+        System.out.println("Type: " + type);
+    }
+}
